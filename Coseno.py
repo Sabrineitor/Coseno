@@ -2,11 +2,11 @@ import numpy  as np
 import matplotlib.pyplot as plt
 
 def Coseno(t,A,B):
-	return A*np.cos(t)+B
+	return A*np.tan(t)+B
 
 A = 1
 
-B = 5
+B = 0
 x = np.arange(0,10,1)
 
 Imagen = Coseno(x,A,B)
