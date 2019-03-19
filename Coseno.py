@@ -2,7 +2,7 @@ import numpy  as np
 import matplotlib.pyplot as plt
 
 def Coseno(t,A,B):
-	return A*np.cos(t)+B
+	return A*np.sin(t)+B
 
 A = 1
 
